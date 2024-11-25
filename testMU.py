@@ -128,8 +128,8 @@ if __name__ == '__main__':
     ])
 
     test_dataset = SimplifiedCustomDataset(
-        image_dir='dataset/test/orgin2',
-        label_dir='dataset/test/color2',
+        image_dir='dataset/test/orgin',
+        label_dir='dataset/test/color',
         transform=image_transform,
     )
 
